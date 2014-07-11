@@ -16,4 +16,4 @@ goog.addDependency("../cljs/core/async/impl/channels.js", ['cljs.core.async.impl
 goog.addDependency("../cljs/core/async/impl/timers.js", ['cljs.core.async.impl.timers'], ['cljs.core', 'cljs.core.async.impl.channels', 'cljs.core.async.impl.dispatch', 'cljs.core.async.impl.protocols']);
 goog.addDependency("../cljs/core/async.js", ['cljs.core.async'], ['cljs.core.async.impl.ioc_helpers', 'cljs.core.async.impl.buffers', 'cljs.core', 'cljs.core.async.impl.channels', 'cljs.core.async.impl.dispatch', 'cljs.core.async.impl.protocols', 'cljs.core.async.impl.timers']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['cljs.core', 'clojure.string', 'cljs.reader', 'cljs.core.async', 'goog.net.jsloader']);
-goog.addDependency("../vinnese/core.js", ['vinnese.core'], ['sablono.core', 'cljs.core', 'om.core', 'figwheel.client', 'om.dom']);
+goog.addDependency("../viennese/core.js", ['viennese.core'], ['sablono.core', 'cljs.core', 'om.core', 'figwheel.client', 'om.dom']);

@@ -1,4 +1,4 @@
-(ns vinnese.core
+(ns viennese.core
   (:require
    [figwheel.client :as fw :include-macros true]
    [om.core :as om :include-macros true]

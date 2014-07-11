@@ -16,7 +16,7 @@
             [sablono "0.2.16"]]
   :cljsbuild {
               :builds [{ :source-paths ["src"]
-                         :compiler { :output-to "resources/public/js/compiled/vinnese.js"
+                         :compiler { :output-to "resources/public/js/compiled/viennese.js"
                                      :output-dir "resources/public/js/compiled/out"
                                      :optimizations :none }}]}
   :figwheel {
